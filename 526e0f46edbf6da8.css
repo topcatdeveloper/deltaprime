@@ -1,0 +1,189 @@
+.footerWrapper {
+    background: #1b153c
+}
+
+.footerTextLinksLine {
+    width: 2px;
+    height: 8rem
+}
+
+.footerTextLinksLine,.footerTextLinksVerticalLine {
+    background: -moz-linear-gradient(0deg,#afafff 0,#ff8fb8 50%,#ffbb9b 100%);
+    background: -webkit-linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afafff",endColorstr="#ffbb9b",GradientType=1)
+}
+
+.footerTextLinksVerticalLine {
+    width: 8rem;
+    height: 2px
+}
+
+.toggle_wrapper {
+    width: 47px;
+    height: 27px;
+    background-color: #e0e1ff;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color .4s ease;
+    margin-right: 10px
+}
+
+.toggle_wrapper.night {
+    background-color: #383780
+}
+
+.icon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 2.75px;
+    left: 0;
+    background-size: cover;
+    transition: left .4s ease,opacity .4s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,.24)
+}
+
+.sun {
+    background-color: #fff;
+    background-image: url("sun.98c721ba.svg");
+    opacity: 1
+}
+
+.moon,.sun {
+    border-radius: 50px
+}
+
+.moon {
+    background-color: #9a89fb;
+    background-image: url("moon.3c3cab6e.svg");
+    opacity: 0;
+    left: -100%;
+    background-position-y: 1.2px;
+    background-position-x: 1px
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    display: none
+}
+
+.overlay.visible {
+    display: block
+}
+
+.brightTitle {
+    text-shadow: 0 -1px 16px #feeef4;
+    font-weight: 700;
+    letter-spacing: -2%
+}
+
+.boxWrapper,.no-scroll {
+    overflow: hidden
+}
+
+.boxWrapper {
+    height: 100%;
+    position: relative;
+    padding: 2.5px;
+    width: 15rem;
+    border-radius: 25px
+}
+
+.boxWrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3px;
+    border-radius: 25px;
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    -webkit-mask: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1
+}
+
+.boxContainer {
+    border-radius: 25px;
+    position: relative;
+    z-index: 1
+}
+
+.strategy-nav-box .boxContainer {
+    transition: background .3s ease,color .3s ease
+}
+
+.strategy-nav-box.dark .boxContainer {
+    background: linear-gradient(180deg,#1b153c 10%,#1c2943 50%,#301e3e 80%);
+    color: #fff
+}
+
+.strategy-nav-box .boxContainer,.strategy-nav-box.dark:hover .boxContainer {
+    background: linear-gradient(180deg,#f4f4ff,#fff5f0,#feeef4);
+    color: #565ac2
+}
+
+.strategy-nav-box:hover .boxContainer {
+    background: linear-gradient(180deg,#1b153c 10%,#1c2943 50%,#301e3e 80%);
+    color: #fff
+}
+
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3px;
+    border-radius: 25px;
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    -webkit-mask: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1
+}
+
+.glossaryItemWrapper {
+    position: relative;
+    border-radius: 25px;
+    padding: 1px;
+    overflow: hidden
+}
+
+.glossaryItemWrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2px;
+    border-radius: 25px;
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    -webkit-mask: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1
+}
+
+.glossaryContent {
+    border-radius: 25px;
+    position: relative;
+    z-index: 1
+}

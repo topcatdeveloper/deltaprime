@@ -1,0 +1,14 @@
+.tableAPYData {
+    color: #00bf68;
+    font-weight: 700
+}
+
+.coloredBoxBorder {
+    padding: 2px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px rgba(93,71,255,.56);
+    background: -moz-linear-gradient(0deg,#afafff 0,#ff8fb8 50%,#ffbb9b 100%);
+    background: -webkit-linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afafff",endColorstr="#ffbb9b",GradientType=1)
+}

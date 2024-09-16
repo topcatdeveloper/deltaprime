@@ -1,0 +1,340 @@
+.arrowButtonBG,.arrowRightImageBtn,.blogCardText,.buttonLightModeText,.contactUsButtonBGDark,.contactUsButtonBGLight,.contactUsLabel,.ctaButtonText,.mainButton,.mainButtonBGwithoutBorder,.mainButtonDarkBG,.mainButtonText,.mainButtonWithBorderBG,.navBarButtonBGDark,.navButtonDarkText,.navbarButtonLightGradient,.pathArrowChild,.pathArrowWhiteChild {
+    transition: all .5s ease
+}
+
+.mainButtonBGwithoutBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    box-shadow: 0 8.52px 27.7px rgba(82,0,255,.4),0 2.13px 6.39px rgba(51,0,255,.7)
+}
+
+.navBarButtonBGDark {
+    padding: 2px;
+    background: linear-gradient(130deg,#ffbb9b 25%,#ff8fb8 35%,#afafff 45%);
+    box-shadow: 0 8.52px 27.7px rgba(82,0,255,.4),0 2.13px 6.39px rgba(51,0,255,.7)
+}
+
+.navBarButtonBGDark,.navBarButtonBGLight {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    background-size: 100% 200%
+}
+
+.navBarButtonBGLight {
+    box-shadow: 0 1.447px 4.342px 0 rgba(255,95,162,.7),0 5.79px 18.816px 0 rgba(255,95,162,.41)
+}
+
+.navbarButtonLightGradient {
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1;
+    background: linear-gradient(145deg,#3a2d8c 10%,#571e4b 50%,#163d59)
+}
+
+.arrowButtonBG,.navbarButtonLightGradient {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.arrowButtonBG {
+    padding: 2px;
+    background: linear-gradient(130deg,#ffbb9b 25%,#ff8fb8 35%,#afafff 45%);
+    background-size: 100% 200%;
+    border-radius: 65px
+}
+
+.mainButtonBG:hover {
+    box-shadow: 0 8.52px 27.7px rgba(82,0,255,.6),0 2.13px 6.39px rgba(51,0,255,.9);
+    background-size: 200% 100%
+}
+
+.mainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1;
+    border-radius: 100px;
+    background: linear-gradient(345deg,#6267ea 40%,#8187fa 60%,#a695ff 80%),var(--Main,#6b70ed);
+    box-shadow: 2px 2px 10px 0 rgba(255,95,162,.12),7px 7px 30px 0 rgba(255,95,162,.2),inset 0 -4px 3px 0 #5f64dd,inset 0 3px 3px 0 hsla(0,0%,100%,.37);
+    transition: background .4s ease,box-shadow .4s ease
+}
+
+.mainButton:hover {
+    border-radius: 100px;
+    background: linear-gradient(303deg,#8697ff 9.24%,#9f7dff 51.51%,#cd9cff 93.79%);
+    box-shadow: 2px 2px 10px 0 rgba(255,95,162,.12),7px 7px 30px 0 rgba(255,95,162,.2),inset 0 -4px 3px 0 rgba(95,100,221,.6),inset 0 3px 3px 0 hsla(0,0%,100%,.37)
+}
+
+.arrowButtonBG:hover .contactUsButtonBGDark {
+    background: #1b153c;
+    background: linear-gradient(15deg,#1b153c,#1c2943 50%,#301e3e)
+}
+
+.contactUsButtonBGDark:hover {
+    background-color: #1b153c
+}
+
+.contactUsButtonBGDark:hover .contactUsLabel {
+    color: #feeef4
+}
+
+.pathArrowWhiteChild {
+    stroke: #000
+}
+
+.arrowButtonBG:hover .pathArrowWhiteChild,.svgArrowWhiteParent {
+    stroke: #fff
+}
+
+.arrowButtonBG:hover .svgArrowWhiteParent {
+    stroke: #000
+}
+
+.mainButton:hover .mainButtonText,.mainButton:hover .navButtonDarkText,.mainButton:hover .navButtonLightText,.mainButtonText {
+    color: #fff
+}
+
+.mainButton:hover .mainButton,.mainButton:hover .mainButtonBG,.navButtonWrapper:hover .navBarButtonBGDark {
+    background: transparent
+}
+
+.mainButton:hover .mainButtonWithBorderBG {
+    background: transparent;
+    border: 1px solid red
+}
+
+.mainButton:hover .arrowOnButton {
+    filter: brightness(0) invert(1)
+}
+
+.mainButtonDarkBG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1
+}
+
+.mainButtonDarkBG,.mainButtonDarkBG:hover {
+    background: #1b153c;
+    background: linear-gradient(15deg,#1b153c,#1c2943 50%,#301e3e)
+}
+
+.aboutButtonDarkBG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: #1b153c;
+    transition: all .3s ease
+}
+
+.aboutButtonDarkBG:hover {
+    background-color: #fff
+}
+
+.aboutButtonDarkBG:hover .buttonLightModeText {
+    color: #000
+}
+
+.aboutButtonDarkBG:hover .pathArrowChild {
+    fill: #000;
+    stroke: #000
+}
+
+.aboutButtonDarkBG:hover .pathArrowWhiteChild {
+    stroke: #000
+}
+
+.contactUsButtonBGDark {
+    z-index: 1;
+    background-color: #feeef4;
+    box-shadow: 0 8.52px 27.7px rgba(82,0,255,.4),0 2.13px 6.39px rgba(51,0,255,.7)
+}
+
+.contactUsButtonBGDark,.contactUsButtonBGLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.contactUsButtonBGLight {
+    z-index: 10;
+    background-color: #1b153c;
+    box-shadow: 5px 5px 20px 0 rgba(255,95,162,.25);
+    background: linear-gradient(140deg,#1b153c 10%,#1c2943 50%,#301e3e 90%);
+    transition: background .3s ease
+}
+
+.contactUsButtonBGLight:hover {
+    background-color: #e8e5f0;
+    background: #e8e5f0
+}
+
+.contactUsButtonBGLight:hover .contactUsLabel {
+    color: #1b153c
+}
+
+.ctaButtonBorder:hover .ctaButtonText {
+    text-shadow: 0 -1px 16px #feeef4;
+    color: #fff
+}
+
+.svgArrowParent {
+    flex-shrink: 0
+}
+
+.pathArrowChild {
+    transition: all .5s ease
+}
+
+.ctaButtonBorder:hover .pathArrowChild {
+    stroke: #fff;
+    drop-shadow: 0 -1px 16px #feeef4
+}
+
+.blogButtonWrapper {
+    position: relative;
+    border-radius: 22px;
+    padding: 3px;
+    overflow: hidden;
+    scale: 1.01
+}
+
+.blogButtonWrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3.5px;
+    border-radius: 25px;
+    background: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    -webkit-mask: linear-gradient(0deg,#afafff,#ff8fb8 50%,#ffbb9b);
+    mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1
+}
+
+.blogButtonContent,.blogFilterButton {
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background: linear-gradient(180deg,#504ec2 50%,#5a4eb5)
+}
+
+.blogCardText {
+    transition: all .5s ease
+}
+
+.blogButtonWrapper:hover .blogCardText {
+    background: -webkit-linear-gradient(#ffbb9b,#ff8fb8,#afafff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.blogButtonWrapper:hover .blogButtonContent {
+    background: linear-gradient(180deg,#f4f4ff,#fff5f0 50%,#feeef4)
+}
+
+.blogButtonWrapper:hover h6 {
+    text-shadow: 0 -1px 16px #feeef4;
+    color: #fff
+}
+
+.blogCardText {
+    background: linear-gradient(180deg,#504ec2 50%,#5a4eb5)
+}
+
+.ctaButtonBorder {
+    position: relative;
+    border-radius: 25px;
+    padding: 3.5px;
+    overflow: hidden;
+    transition: all .5s ease
+}
+
+.ctaButtonBorder:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 4.5px;
+    border-radius: 25px;
+    background: -moz-linear-gradient(320deg,#afafff 50%,#ff8fb8 60%,#ffbb9b 70%);
+    background: -webkit-linear-gradient(320deg,#afafff 50%,#ff8fb8 60%,#ffbb9b 70%);
+    background: linear-gradient(320deg,#afafff 50%,#ff8fb8 60%,#ffbb9b 70%);
+    mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1
+}
+
+.ctaButtonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    border-radius: 22px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    background: linear-gradient(180deg,#504ec2 50%,#5a4eb5);
+    z-index: 10;
+    scale: 1
+}
